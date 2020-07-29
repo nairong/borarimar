@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+
+<html> 
+
+    <head>     
+        <meta charset="UTF-8">      <!-- Responsável por padronizar texto, como aceitar acentos por exemplo-->               
+        <title>Bora Rimar</title>   
+        <link rel="stylesheet" href="./src/styles.css">  
+    </head>
+
+    <body>
+        <section id="content">
+            <h3> Você está pronto para rimar ? </h3>
+    
+            <!-- box principal que gera palavra aleatória-->
+            <section id="container">
+                <p id="mainWord"> IMPROVISAÇÃO</p>
+                <button onclick="aleatoryWord()"> TROCAR </button>
+            </section>
+    
+    
+            <!-- box que ativa/desativa modo aleatório-->
+            <section id="container">
+                <button class="fat" onclick="onOff(), ChangeColor()"> MODO ALEATÓRIO </button>
+                <section id="container2">
+                    <h2> TROCAR A CADA:</h2>
+                    <p id="time"> 00:20 </p>
+                </section>
+            </section>
+    
+    
+            <!-- box com o cronômetro-->
+            <section id="container">
+                <h2> CRONÔMETRO:</h2>
+                <p id="time"> 00:30</p>
+                <button id="p2">INICIAR</button>
+                <button id="p2">ZERAR</button>
+            </section>
+    
+            <!-- box com o player-->
+            <section id="containerFlex">
+    
+                <section id="containerPlayer">
+                    <button id="p4">
+                        <img id="players" src="./assets/toque.png">
+                    </button>
+    
+                    <button id="p4">
+                        <img id="players" src="./assets/pausa2.png">
+                    </button>
+                </section>
+    
+                <h2> BASE DE RAP - UNDERGROUND KINGS - HIP HOP BEAT INSTRUMENTAL </h2>
+                <button class="fat" id="p3"> TROCAR </button>
+    
+            </section>
+        </section>
+
+        <script src="./src/script.js"></script>          
+    </body>
+
+</html>
+
