@@ -8,6 +8,7 @@ Author: Náiron Galvez
 
 
 BORARIMAR
+
 BoraRimar é um site que disponibiliza algumas simples funcionalidades de gerar palavras aleatoriamente, cronômetro e ouvir alguns bons beats, 
 que juntos criam um ambiente divertido para aqueles que gostam de rimar.
 
